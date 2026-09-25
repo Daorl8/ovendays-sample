@@ -96,7 +96,7 @@ h1,h2,h3{ margin:0; font-family:var(--scrawl); font-weight:700; line-height:1.05
 .site-head{ position:sticky; top:0; z-index:60; background:rgba(252,250,244,.86); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px); border-bottom:2.5px solid var(--ink); }
 .site-head .row{ display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:9px var(--gut); max-width:var(--maxw); margin:0 auto; }
 .brand{ display:flex; align-items:center; gap:.35em; }
-.brand img{ width:42px; height:42px; }
+.brand img{ width:44px; height:44px; border-radius:50%; border:2.5px solid var(--ink); background:#fff; object-fit:contain; padding:3px; }
 .brand b{ font-family:var(--scrawl); font-weight:700; font-size:1.8rem; letter-spacing:.01em; }
 .nav{ display:flex; align-items:center; gap:clamp(12px,2.4vw,26px); }
 .nav a:not(.btn){ font-family:var(--scrawl); font-weight:700; font-size:1.35rem; color:var(--ink); }
@@ -106,7 +106,7 @@ h1,h2,h3{ margin:0; font-family:var(--scrawl); font-weight:700; line-height:1.05
 
 /* hero */
 .hero{ padding-top:clamp(30px,6vw,54px); text-align:center; overflow:clip; }
-.hero-mascot{ width:clamp(96px,20vw,150px); margin:0 auto .4rem; transform:rotate(-4deg); }
+.hero-mascot{ width:clamp(108px,21vw,160px); aspect-ratio:1/1; margin:0 auto .7rem; border-radius:50%; border:3px solid var(--ink); background:#fff; object-fit:contain; padding:12px; box-shadow:5px 5px 0 var(--point); transform:rotate(-3deg); }
 .hero h1{ font-size:clamp(4rem,17vw,9rem); line-height:.86; letter-spacing:-.01em; }
 .hero h1 .a{ color:var(--point); display:inline-block; transform:rotate(-3deg); }
 .hero .tl-en{ font-family:var(--scrawl); font-weight:700; font-size:clamp(1.5rem,4.5vw,2.4rem); color:var(--ink); margin:.4rem 0 .1rem; }
